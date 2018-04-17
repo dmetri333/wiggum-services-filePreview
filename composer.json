@@ -1,0 +1,14 @@
+{
+	"name" : "wiggum/services/filePreview",
+	"require" : {
+		"char0n/ffmpeg-php" : "2.9.0",
+		"sybio/gif-creator" : "1.0",
+		"gregwar/image" : "2.*",
+		"php-ffmpeg/php-ffmpeg" : "0.6.*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"wiggum\\services\\" : "src/"
+		}
+	}
+}
