@@ -1,5 +1,5 @@
 {
-	"name" : "wiggum/filePreview",
+	"name" : "wiggum/file-preview",
 	"require" : {
 		"char0n/ffmpeg-php" : "2.9.0",
 		"sybio/gif-creator" : "1.0",
