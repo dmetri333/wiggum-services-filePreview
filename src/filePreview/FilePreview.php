@@ -45,7 +45,7 @@ class FilePreview {
 			$options['animated'] = isset($options['animated']) ? (int) $options['animated'] : false;
 
 			// Check for supported output format
-			if ($options['extension'] != 'gif' && $options['extension'] != 'jpg' && $options['extension'] != 'png' && $options['extension'] != '') {
+			if (!empty($options['extension']) && !in_array($options['extension'], ['gif', 'jpg', 'jpeg', 'png'])) {
 				throw new \Exception('Output format not supported');
 			}
 
